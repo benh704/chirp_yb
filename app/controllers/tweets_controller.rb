@@ -1,4 +1,5 @@
 class TweetsController < ApplicationController
+<<<<<<< HEAD
 # only:
      before_action :set_tweet, only:  [:show,
     :edit, :update, :destroy]
@@ -7,6 +8,9 @@ class TweetsController < ApplicationController
 
   def index
     @tweets = Tweet.all
+=======
+  def index
+>>>>>>> origin/master
   end
 
   def show
@@ -16,6 +20,7 @@ class TweetsController < ApplicationController
   end
 
   def new
+<<<<<<< HEAD
     @tweet = Tweet.new
   end
 
@@ -35,7 +40,10 @@ class TweetsController < ApplicationController
      end
     end
   end
-private
+end
+
+
+# private
 def set_tweet@tweet = Tweet.find(params[:id])
   rais.logger.info @tweet
 end
@@ -49,4 +57,8 @@ end
     end
 end
 end
+=======
+  end
+
+>>>>>>> origin/master
 end
