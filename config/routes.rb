@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 <<<<<<< HEAD
+<<<<<<< HEAD
   
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
   resources :tweets
@@ -9,7 +12,10 @@ Rails.application.routes.draw do
 
   devise_for :users
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
   # The priority is based upon order of creation: first created -> highest priority.

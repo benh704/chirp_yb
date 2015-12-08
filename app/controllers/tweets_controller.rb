@@ -1,5 +1,6 @@
 class TweetsController < ApplicationController
 <<<<<<< HEAD
+<<<<<<< HEAD
 # only:
      before_action :set_tweet, only:  [:show,
     :edit, :update, :destroy]
@@ -8,6 +9,9 @@ class TweetsController < ApplicationController
 
   def index
     @tweets = Tweet.all
+=======
+  def index
+>>>>>>> origin/master
 =======
   def index
 >>>>>>> origin/master
@@ -20,6 +24,7 @@ class TweetsController < ApplicationController
   end
 
   def new
+<<<<<<< HEAD
 <<<<<<< HEAD
     @tweet = Tweet.new
   end
@@ -57,6 +62,10 @@ end
     end
 end
 end
+=======
+  end
+
+>>>>>>> origin/master
 =======
   end
 

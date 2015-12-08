@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
@@ -14,6 +15,8 @@ gem 'devise'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 
 =======
+=======
+>>>>>>> origin/master
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem 'paperclip'
@@ -24,6 +27,9 @@ gem 'rails', '4.2.5'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -52,7 +58,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
 <<<<<<< HEAD
+<<<<<<< HEAD
 	gem 'rspec-rails', '~> 3.0'
+=======
+  gem 'rspec-rails', '~> 3.0'
+>>>>>>> origin/master
 =======
   gem 'rspec-rails', '~> 3.0'
 >>>>>>> origin/master
@@ -68,6 +78,9 @@ group :development do
   gem 'spring'
 end
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
