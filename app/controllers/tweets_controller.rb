@@ -7,6 +7,16 @@ class TweetsController < ApplicationController
 
   def index
     @tweets = Tweet.all
+
+  def index
+
+
+  def index
+
+  def index
+
+  def index
+
   end
 
   def show
@@ -17,6 +27,7 @@ class TweetsController < ApplicationController
   end
 
   def new
+
     @tweet = Tweet.new
   end
 
@@ -35,6 +46,7 @@ class TweetsController < ApplicationController
      end
     end
   end
+<<<<<<< Updated upstream
 
 def uppdate
   respond_to do |format|
@@ -52,6 +64,11 @@ respond_to do |format|
 end
 end
 
+=======
+end
+
+
+>>>>>>> Stashed changes
 private
 
 def set_tweet 
@@ -67,4 +84,21 @@ end
       params.require(:tweet).permit(:message, :user_id)
     end
 end
+<<<<<<< Updated upstream
 
+=======
+end
+
+  end
+
+  end
+#
+#  origin/master
+# end
+  end
+
+
+  end
+
+end
+>>>>>>> Stashed changes
