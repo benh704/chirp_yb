@@ -1,4 +1,6 @@
 class TweetsController < ApplicationController
+<<<<<<< HEAD
+<<<<<<< HEAD
 # only:
      before_action :set_tweet, only:  [:show,
     :edit, :update, :destroy]
@@ -7,6 +9,7 @@ class TweetsController < ApplicationController
 
   def index
     @tweets = Tweet.all
+<<<<<<< HEAD
 
   def index
 
@@ -17,6 +20,14 @@ class TweetsController < ApplicationController
 
   def index
 
+=======
+=======
+  def index
+>>>>>>> origin/master
+=======
+  def index
+>>>>>>> origin/master
+>>>>>>> origin/master
   end
 
   def show
@@ -27,7 +38,12 @@ class TweetsController < ApplicationController
   end
 
   def new
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> origin/master
     @tweet = Tweet.new
   end
 
@@ -46,6 +62,7 @@ class TweetsController < ApplicationController
      end
     end
   end
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 
 def uppdate
@@ -74,6 +91,14 @@ private
 def set_tweet 
   @tweet = Tweet.find(params[:id])
   
+=======
+end
+
+
+# private
+def set_tweet@tweet = Tweet.find(params[:id])
+  rais.logger.info @tweet
+>>>>>>> origin/master
 end
 
 
@@ -88,6 +113,7 @@ end
 
 =======
 end
+<<<<<<< HEAD
 
   end
 
@@ -100,5 +126,15 @@ end
 
   end
 
+=======
+=======
+  end
+
+>>>>>>> origin/master
+=======
+  end
+
+>>>>>>> origin/master
+>>>>>>> origin/master
 end
 >>>>>>> Stashed changes

@@ -13,12 +13,15 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20151203012140) do
 =======
 ActiveRecord::Schema.define(version: 20151203012132) do
 >>>>>>> origin/master
 =======
 ActiveRecord::Schema.define(version: 20151203012132) do
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
   create_table "tweets", force: :cascade do |t|

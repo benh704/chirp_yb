@@ -3,6 +3,7 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 
   has_many :tweets
@@ -10,6 +11,8 @@ class User < ActiveRecord::Base
   validates :username, presence: true, uniqueness: true 
 
 =======
+=======
+>>>>>>> origin/master
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -20,5 +23,8 @@ class User < ActiveRecord::Base
 
   has_many :tweets
 >>>>>>> origin/master
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> origin/master
 end

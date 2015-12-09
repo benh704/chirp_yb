@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 <<<<<<< HEAD
 <<<<<<< HEAD
   
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   get 'profiles/:id' => "profiles#show", as: :profile
 
@@ -13,7 +14,12 @@ Rails.application.routes.draw do
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> origin/master
   resources :tweets
 
   root "tweets#index"

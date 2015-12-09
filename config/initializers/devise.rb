@@ -7,6 +7,7 @@ Devise.setup do |config|
   # Devise will use the `secret_key_base` on Rails 4+ applications as its `secret_key`
   # by default. You can change it below and use your own secret key.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
@@ -16,6 +17,9 @@ Devise.setup do |config|
 <<<<<<< HEAD
 >>>>>>> origin/master
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> origin/master
   # config.secret_key = 'ccc7eaadc17c357d62d497dbe8ea938b1d656873bca687f823e6357bf0aae4cf2242a9ba49d97bd9937a0d8582bd9113ca18945220e2c8fe8ad51f492e46c407'
   # config.secret_key = '65b48c369ba09808508b3b5b699bdb921538431e1fac84e06226a22b53bad99805f63b89a7919d3eb1fe00a115b249d0867f0606c3a96962c687a2a4d6118be2'
 <<<<<<< HEAD
@@ -32,6 +36,11 @@ Devise.setup do |config|
 =======
 >>>>>>> Stashed changes
 >>>>>>> origin/master
+
+  # config.secret_key = '65b48c369ba09808508b3b5b699bdb921538431e1fac84e06226a22b53bad99805f63b89a7919d3eb1fe00a115b249d0867f0606c3a96962c687a2a4d6118be2'
+
+  # config.secret_key = '65b48c369ba09808508b3b5b699bdb921538431e1fac84e06226a22b53bad99805f63b89a7919d3eb1fe00a115b249d0867f0606c3a96962c687a2a4d6118be2'
+
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -125,6 +134,7 @@ Devise.setup do |config|
 
   # Setup a pepper to generate the encrypted password.
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< HEAD
 =======
@@ -150,6 +160,15 @@ Devise.setup do |config|
   # config.pepper = '44c4e9e5aefbe67043f6db8fa3c9811bcd99a0781f557882fbc3e88d8d5d3bb22cdb6c15539b9a622c1a13d334a933ea61606c0da4b665c7658f7fa49ae5fa54'
 =======
 >>>>>>> Stashed changes
+>>>>>>> origin/master
+=======
+
+  # config.pepper = '4d30822e29956e6eed3c602ee0f508224c334a8f67eb80e0bb8216e04bae9b37357ac08d1e0326dde182dd609df403823e6c367caf6b4ff6d2f3e9051536bf60'
+
+  # config.pepper = '44c4e9e5aefbe67043f6db8fa3c9811bcd99a0781f557882fbc3e88d8d5d3bb22cdb6c15539b9a622c1a13d334a933ea61606c0da4b665c7658f7fa49ae5fa54'
+
+  # config.pepper = '44c4e9e5aefbe67043f6db8fa3c9811bcd99a0781f557882fbc3e88d8d5d3bb22cdb6c15539b9a622c1a13d334a933ea61606c0da4b665c7658f7fa49ae5fa54'
+
 >>>>>>> origin/master
 
   # ==> Configuration for :confirmable
