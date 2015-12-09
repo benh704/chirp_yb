@@ -1,37 +1,16 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
-<<<<<<< HEAD
-  
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
   get 'profiles/:id' => "profiles#show", as: :profile
 
   get 'profiles' => "profiles#index"
 
 
-=======
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> origin/master
   resources :tweets
 
   root "tweets#index"
 
   devise_for :users
-<<<<<<< HEAD
-<<<<<<< HEAD
- 
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
