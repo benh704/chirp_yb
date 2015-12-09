@@ -53,8 +53,7 @@ class TweetsController < ApplicationController
      end
     end
   end
-<<<<<<< HEAD
-<<<<<<< Updated upstream
+
 
 def uppdate
   respond_to do |format|
